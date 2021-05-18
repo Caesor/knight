@@ -1,0 +1,39 @@
+{
+    "mainScene": "scene_id_1",
+    "scenes": {
+        "scene_id_1": {
+            "sprites": ["sprite_id_11"]
+        }
+    },
+    "sprites": {
+        "sprite_id_11": {
+            "id": "sprite_id_11",
+            "name": "小黄人",
+            "properties": {
+                "x": 100,
+                "y": 100,
+                "visible": true,
+                "scale": {
+                    "x": 2,
+                    "y": 2
+                }
+            },
+            "textures": {
+                "run": [
+                    "assets/game/run/yellow_gay1.png",
+                    "assets/game/run/yellow_gay2.png",
+                    "assets/game/run/yellow_gay3.png"
+                ],
+                "fly": [
+                    "assets/game/run/fly1.png",
+                    "assets/game/run/fly2.png",
+                    "assets/game/run/fly3.png",
+                    "assets/game/run/fly4.png",
+                    "assets/game/run/fly5.png",
+                    "assets/game/run/fly6.png",
+                    "assets/game/run/fly7.png"
+                ]
+            }
+        }
+    }
+}

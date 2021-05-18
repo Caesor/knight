@@ -1,0 +1,11 @@
+.editor-container {
+    grid-template-columns: minmax(180px, 260px) auto minmax(180px, 300px);
+    height: calc(100% - 60px);
+
+    .editor-container-left {
+        grid-template-rows: 420px 1fr;
+    }
+    .editor-container-right {
+        grid-template-rows: 450px 1fr;
+    }
+}

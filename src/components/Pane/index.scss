@@ -1,0 +1,32 @@
+@import 'common/styles/global.scss';
+
+.pane-container {
+    font-size: 12px;
+    text-align: left;
+    min-width: 100px;
+    min-height: 200px;
+    contain: content;
+    border: 1px solid #000;
+
+    .pane-container_header {
+        width: 100%;
+        color: $pane-header-color;
+        background-color: $pane-header-bg;
+
+        .pane-container_header_title {
+            display: inline-block;
+            padding: 6px 4px;
+        }
+
+        .pane-container_header_close {
+            float: right;
+            margin-right: 6px;
+            svg {
+                width: 14px;
+            }
+        }
+    }
+    .pane-container_content {
+        overflow: auto;
+    }
+}
